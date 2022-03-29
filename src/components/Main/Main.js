@@ -17,7 +17,7 @@ function Main({onFilterClick, onCardClick, onCardLike, onCardDelete, cards}) {
             <section className="filter">
                 <h2 className="filter__title">あなたの好きなアニメを選択してください</h2>
                 <button
-                    type="button" aria-label="фитровать фото"
+                    type="button" aria-label="фильтровать фото"
                     className={hideButton}
                     onClick={test}
                 ></button>
